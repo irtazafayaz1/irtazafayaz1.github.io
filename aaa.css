@@ -1,0 +1,92 @@
+div#pflex{
+	display:flex;
+}
+.pinfo{
+	background-color:orange;
+}
+
+.pinfo0{
+	background-color:black;
+	justify-content:center;
+}
+.orien{
+	justify-content:center;
+}
+.checked {
+    color: orange;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+	font-family:Century Gothic;
+}
+td{
+	background-color:gray;
+}
+th {
+	background-color:powderblue;
+	color:white;
+	
+	text-align: left;
+}
+.boxes2{
+	
+	margin-left:800px;
+	background-color:black;
+}
+.cen{
+	
+	text-align:center;
+	background-color:orange;
+	color:white;
+}
+.myres{
+	margin-left:auto;
+	margin-top:10px;
+	font-family:Century Gothic;
+	size:5;
+	color:white;
+}
+.boxes2 > p{
+font-family:Century Gothic;
+	size:3;
+	color:white;
+	
+}
+.boxes2,.boxes3{
+	
+	
+}
+div.boxes3{
+	margin-left:10px;
+	margin-top:10px;
+}
+
+.name{
+font-size:30px;
+}
+
+
+
+
+* {box-sizing: border-box}
+
+.container {
+  width: 30%;
+  height:20px;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  
+  color: white;
+}
+
+.html {width: 90%; height:20px; background-color: #4CAF50;}
+.css {width: 80%; height:20px; background-color: #2196F3;}
+.js {width: 65%; height:20px; background-color: #f44336;}
+.php {width: 60%; height:20px;  background-color: #808080;}
